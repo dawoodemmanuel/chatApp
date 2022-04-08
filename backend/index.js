@@ -3,7 +3,6 @@ const connection = require('./models/connection')
 const cors = require('cors')
 const app = express()
 const register = require('./routes/register')
-require("dotenv").config({path: '.env'})
 
 app.use(cors({
     origin: ["http://localhost:3000"],
@@ -19,8 +18,8 @@ app.get("/", (req, res)=> {
 })
 
 
-app.listen(process.env.PORT, ()=> {
-    console.log(`Server is up on ${process.env.PORT}`)
+app.listen(8000, ()=> {
+    console.log(`Server is up on 8000`)
     console.log(`${connection}`)
 })
 

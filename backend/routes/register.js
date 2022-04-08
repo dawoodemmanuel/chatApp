@@ -29,7 +29,7 @@ router.post('/', async (req, res) => {
             })
             await User.save()
             console.log(User)
-            res.send(User)
+            res.send(true)
         }
     }
 })
