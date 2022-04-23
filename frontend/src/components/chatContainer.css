@@ -1,0 +1,15 @@
+.chatContainer {
+    background-color: beige;
+}
+
+.chat-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+
+.user-details {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}

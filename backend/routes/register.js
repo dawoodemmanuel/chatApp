@@ -15,21 +15,23 @@ router.post('/', async (req, res) => {
     if (error) {
         return res.status(400).send(error.details[0].message)
     } else {
-        let User = await user.findOne({
-                email: req.body.Email
+        const User = await user.findOne({
+                email: req.body.email
         })
         if (User) {
+            //return res.json({message: "Rhis Email is already exist", status: false})
             res.send(false)
             console.log("This Email is already Exist")
         } else {
-            let User = new user({
+            const User = new user({
                 username: req.body.username,
                 email: req.body.email,
                 password: req.body.password
             })
             await User.save()
+            res.json({User})
             console.log(User)
-            res.send(true)
+            //return res.json({User, status: true})
         }
     }
 })

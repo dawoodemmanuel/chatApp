@@ -1,0 +1,23 @@
+.contacts {
+    font-size: 15px;
+    overflow: scroll;
+}
+
+.contacts h2 {
+    margin-top: 10px;
+}
+
+.username {
+    margin: 10px;
+    padding: 0.5rem;
+    cursor: pointer;
+    text-transform: capitalize;
+    background-color: bisque;
+}
+
+.current-username {
+    margin: 10px;
+    padding: 0.5rem;
+    text-transform: capitalize;
+    background-color: bisque;
+}

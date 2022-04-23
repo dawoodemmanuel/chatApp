@@ -1,0 +1,10 @@
+.logout {
+    padding: 1rem;
+}
+
+.btn {
+    background-color: white;
+    border-style: none;
+    padding: 10px;
+    cursor: pointer;
+}

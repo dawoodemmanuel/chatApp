@@ -1,0 +1,7 @@
+.welcome {
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

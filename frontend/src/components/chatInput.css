@@ -1,0 +1,34 @@
+.chat-input {
+    display: grid;
+}
+
+.btn-container {
+    display: flex;
+    align-items: center;
+}
+
+.emoji {
+    position: absolute;
+    margin: 0.6rem;
+}
+
+.emoji-picker-react {
+    position: absolute;
+    top: -300px
+}
+
+.input-container {
+    width: 100%;
+    align-items: center;
+}
+
+.input-container input {
+    width: 86%;
+    font-size: 1rem;
+    text-align: left;
+}
+
+button {
+    padding: 8px;
+    border: none;
+}

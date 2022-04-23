@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+} 
+
+.container {
+    height: 80vh;
+    width: 90vw;
+    background-color: aqua;
+    margin: 5% auto;
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+ .text {
+     background-color: blueviolet;
+ }
